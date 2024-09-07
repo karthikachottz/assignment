@@ -25,27 +25,17 @@ function App() {
           display: 'flex', 
           flexDirection: 'column', 
           alignItems: 'center',
+          gap: 2 // Space between widgets
         }}
       >
         {/* TabWidget component */}
-        <Box sx={{ mb: 1 }}>  {/* Adjust the bottom margin to control spacing */}
-          <TabWidget />
-        </Box>
+        <TabWidget />
 
         {/* Divider Line */}
-        <Box 
-          sx={{ 
-            width: '70%', 
-            height: '3px', 
-            bgcolor: 'gray', 
-            my: 1,  // Margin on top and bottom
-          }} 
-        />
+        <Box sx={{ width: '100%', height: '2px', bgcolor: 'white', my: 2 }} />
 
         {/* GalleryWidget component */}
-        <Box sx={{ mt: 0.5 }}>  {/* Adjust the top margin to control spacing */}
-          <GalleryWidget />
-        </Box>
+        <GalleryWidget />
       </Box>
     </Box>
   );
