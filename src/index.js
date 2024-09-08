@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.css'; // This imports the App.css file for styling
+
 import App from './app'; // This imports the App component
 
 
